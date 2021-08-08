@@ -11,7 +11,6 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <p>Search a word...</p>
         <footer className="text-center"><small>Coded by Stef Polanco</small></footer>
       </div>
     </div>
