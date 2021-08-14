@@ -1,7 +1,16 @@
-header {
+
+body {
+  background: #fff4fe;
+  
+}
+
+h1 {
   text-align: center;
-  color: blueviolet;
+  color: #f8b595;
   font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #f8b595;
 }
 footer {
   text-align: center;
