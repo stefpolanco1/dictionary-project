@@ -11,7 +11,14 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="Yoga" />
         </main>
-        <footer className="text-center"><small>Coded by Stef Polanco</small></footer>
+        <footer className="text-center">
+          <small> 
+              Coded by Stefanie Polanco 👩🏾‍💻  and is {" "}
+                <a href="https://github.com/stefpolanco1/dictionary-project" target="_blank" rel="noreferrer"> 
+                open-sourced on GitHub 
+                </a>
+            </small>
+        </footer>
       </div>
     </div>
   );

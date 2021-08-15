@@ -27,12 +27,12 @@ export default function Dictionary(props) {
             "563492ad6f9170000100000167fc26d7e99049b0986d790fdf37e05f";
         let pexelApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
         let headers = { Authorization : `Bearer ${pexelApiKey}` }; 
-        axios.get(pexelApiUrl, { headers: headers }).then
-        (handlePexelResponse);
+        axios.get(pexelApiUrl, { headers: headers }).then(handlePexelResponse);
     }
 
     function handleSubmit(event) {
         event.preventDefault();
+        search();
     }
 
     function handleKeywordChange(event) {
@@ -69,6 +69,4 @@ export default function Dictionary(props) {
         load();
         return "Loading";
     }
-
-
 }

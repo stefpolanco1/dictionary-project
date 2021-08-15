@@ -1,5 +1,5 @@
 .Phonetic {
-    margin: 25px;
+    margin: 25px 0;
 }
 
 .Phonetic a {
@@ -9,6 +9,7 @@
     font-size: 15px;
     border-radius: 20px;
     transition: all 150ms ease-in-out;
+    margin-right: 10px;
 }
 
 .Phonetic a:hover {
