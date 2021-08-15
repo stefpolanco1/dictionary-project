@@ -19,9 +19,11 @@ export default function Dictionary(props) {
     }
 
     function search() {
-        // documentation: https://dictionaryapi.dev/
+        // dictionary documentation: https://dictionaryapi.dev/
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
         axios.get(apiUrl).then(handleDictionaryResponse);
+
+        // image documentaion: https://api.pexels.com/
 
         let pexelApiKey = 
             "563492ad6f9170000100000167fc26d7e99049b0986d790fdf37e05f";
@@ -37,7 +39,6 @@ export default function Dictionary(props) {
 
     function handleKeywordChange(event) {
         setKeyword(event.target.value);
-        search();
     }
 
     function load() {
